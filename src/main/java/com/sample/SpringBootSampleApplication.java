@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(scanBasePackages = "com.sample")
-public class SpringBootMultiTenancyMongoApplication {
+public class SpringBootSampleApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootMultiTenancyMongoApplication.class, args);
+		SpringApplication.run(SpringBootSampleApplication.class, args);
 	}
 
 }
